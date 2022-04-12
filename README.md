@@ -2,6 +2,9 @@
 
 Simple multi-account landing zone for Alibaba Cloud.
 
+![high-level diagram](/images/hld.png)
+
+
 ## Prerequirements
 
 Create RAM user and with API access and write access key and secret key to [/settings.tfvars](settings.tfvars) - `access_key` and `secret_key` fields.
