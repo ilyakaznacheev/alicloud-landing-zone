@@ -20,3 +20,8 @@ generate/4:
 	@cd 04-vpc && \
 	terraform init && \
 	terraform apply -parallelism=1 -auto-approve -var-file=../settings.tfvars
+
+generate/5:
+	@cd 05-action-trail && \
+	terraform init && \
+	terraform apply -parallelism=1 -auto-approve -var-file=../settings.tfvars

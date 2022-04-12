@@ -137,6 +137,13 @@ ram_multi_roles = [
   }
 ]
 
+# audit
+
+actiontrail_account_uid = "113*************"
+project_name = "audit"
+bucket_name = "audit-logs"
+action_trail_name = "audit-trail"
+
 # networking
 share_service_account_cen = {
   // fill from Shared Services account id

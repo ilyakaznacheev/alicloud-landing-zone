@@ -11,6 +11,7 @@ Add the following roles:
 - AliyunResourceDirectoryFullAccess
 - AliyunSTSAssumeRoleAccess
 - AliyunRAMFullAccess
+- AliyunActionTrailFullAccess
 
 After creating folders and accounts fill the following in [/settings.tfvars](settings.tfvars):
 
@@ -28,4 +29,6 @@ make generate/2
 make generate/3
 # fill shared services and network account ids here
 make generate/4
+# enable SLS
+make generate/5
 ```
